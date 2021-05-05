@@ -1,0 +1,6 @@
+-c requirements.txt
+# Dev dependencies - normally split out
+pytest~=6.2
+pytest-mock~=3.6
+pytest-flask~=1.2
+pytest_cov~=2.11
