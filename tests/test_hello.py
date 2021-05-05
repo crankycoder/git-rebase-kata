@@ -5,4 +5,11 @@ def test_index(client):
 
 def test_new_handler(client):
     response = client.get("/fubar")
-    assert response.data == b"Situation fubar"
+    """
+    This should be:
+
+    import json
+    assert json.loads(response.data)["status"] == "Situation fubar"
+
+    """
+    assert response.data == "Situation fubar"
