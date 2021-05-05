@@ -15,8 +15,9 @@ $ pip install -r requirements.txt
 There are several branches you can look at, we're going to practice a
 couple things.
 
+1. Modifying the url handler and putting in a stub testcase
+2 
 
-1.  Adding a URL handler, 
 
 
 
