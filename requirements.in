@@ -1,5 +1,7 @@
 # You need pip-tools to build your dependencies
 pip-tools==6.1.0
 
+# Basic top-level requirements
+gunicorn~=20.1
 Flask~=1.1
 jsonschema~=3.2
