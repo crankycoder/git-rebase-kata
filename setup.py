@@ -9,7 +9,7 @@ setup(
     include_package_data=True,
     packages=find_packages(exclude=["tests", "tests/*"]),
     description="all about the rebase, no trouble",
-    author="VictorNg",
+    author="Victor Ng",
     author_email="victor@crankycoder.com",
     url="https://github.com/cranycoder/git-rebase-kata",
     license="MPL 2.0",
