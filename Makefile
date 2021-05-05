@@ -8,3 +8,6 @@ pin_versions:
 
 create_venv:
 	python3 -m venv .venv
+
+run:
+	./run.sh
