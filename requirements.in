@@ -1,4 +1,5 @@
 # You need pip-tools to build your dependencies
 pip-tools==6.1.0
 
-Flask==1.1.2
+Flask~=1.1
+jsonschema~=3.2
