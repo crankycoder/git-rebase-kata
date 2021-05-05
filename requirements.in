@@ -5,3 +5,8 @@ pip-tools==6.1.0
 gunicorn~=20.1
 Flask~=1.1
 jsonschema~=3.2
+
+# Dev dependencies - normally split out
+pytest~=6.2
+pytest-mock~=3.6
+pytest-flask~=1.2

@@ -1,12 +1,10 @@
-from flask import Flask
+from demo import app as myapp
 import pytest
 
-app = Flask(__name__)
 
-
-@app.route("/")
-def hello_world():
-    return "Hello, World!"
+@pytest.fixture
+def app():
+    return myapp.app
 
 
 @pytest.fixture
